@@ -1,0 +1,87 @@
+.brick22, .brick21 { 
+	width: 100%;
+}
+.brick11 { 
+	width: 50%; 
+}
+.grid-sizer {
+	width: 50%; 
+}
+h1 { 
+	font-size: 3.5em; 
+	margin-top: 0.1em;
+}
+h2 { 
+	font-size: 1.3em; 
+}
+p { 
+	font-size: 1em; 
+}
+img[alt="windowsphonestore"] { 
+	width: 101px; 
+}
+img[alt="androidmarket"] { 
+	width: 98px; 
+}
+img[alt="appstore"] { 
+	width: 108px; 
+	display: block; 
+	margin: 10px auto; 
+}
+.dynamic {
+	.inner-content {
+		padding: 0 2em;
+	}
+}
+h2.col-3 {
+	width: 80%;
+	font-size: 1.4em;
+}
+
+#singleContainer {
+	.inner-content {
+		padding: 0 2em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+}
+/*******LOGIN AREA*******/
+#formPanel {
+	overflow-y : auto;
+	.formContainer {
+		.closeWrapper {
+			top: 1.5em;
+			right: 0.9375em;
+		}
+	}
+}
+.loginArea {
+	h1 {
+		font-size: 2.5em;
+		margin-top: 1em;
+	}
+}
+.registerArea {
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+/*******365 PAIVA AREA*******/
+#paivaPanel {
+	overflow-y : auto;
+	.paivaContainer {
+		h1 {
+			font-size: 2em;
+			margin-top: 3em;
+		}
+		.closeWrapper {
+			top: -4em;
+			right: 0.9375em;
+		}
+	}
+}

@@ -1,0 +1,30 @@
+
+.ie9 {
+	#container2 {
+		width: 100%;
+		margin: 0;
+		margin-top: 38px;
+		padding: 0;
+	}
+	.item {
+		margin: 0;
+		width: 16.6666666666666666666667%;
+		float: left;
+		overflow: hidden;
+	}
+	.item.w2 {
+		margin: 0;
+		width: 33.333333333333333333333%;
+		float: left;
+		overflow: hidden;
+	}
+	.caption {
+		position: absolute;
+		bottom: 0;
+		right: 20px;
+	}
+}
+
+/****************
+** MEDIA QUERIES **
+*****************/

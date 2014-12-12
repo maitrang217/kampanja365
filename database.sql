@@ -1,0 +1,32 @@
+CREATE TABLE day (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	day_order VARCHAR(255),
+	featured_image VARCHAR(255),
+	featured_content TEXT,
+	title TEXT,
+	content LONGTEXT,
+	className VARCHAR(255),
+	type VARCHAR(255),
+	story_id INT NOT NULL,
+	created TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE story (
+	story_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	story_name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE gallery (
+	gallery_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	gallery_image VARCHAR(255) NOT NULL,
+	className VARCHAR(255),
+	story_id INT NOT NULL
+);
+
+CREATE TABLE voucher (
+	voucher_if INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	voucher_name VARCHAR(255),
+	voucher_image VARCHAR(255),
+	voucher_day DATE,
+	story_id INT NOT NULL
+);

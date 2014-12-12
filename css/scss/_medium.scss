@@ -1,0 +1,83 @@
+h1 {
+	//font-size: 5em;
+}
+h2 {
+	font-size: 2em;
+}
+p {
+	font-size: 1em;
+}
+button, .button {
+	font-size: 1em;
+}
+.dynamic {
+	.inner-content {
+		padding: 0 3em;
+	}
+}
+.dynamic.brick11 {
+	.inner-content {
+		padding: 0 1em;
+	}
+}
+.brick22, .brick21 { 
+	width: 50%; 
+}
+.brick11 { 
+	width: 25%; 
+}
+.grid-sizer { 
+	width: 25%; 
+}
+h2.col-3 {
+	width: 80%;
+	font-size: 1.8em;
+}
+#singleContainer {
+	.inner-content {
+		padding: 0 3em;
+	}
+}
+/*******LOGIN AREA*******/
+#formPanel {
+	-webkit-overflow-scrolling: touch;
+	.formContainer {
+		max-width: 550px;
+		.closeWrapper {
+			right: -55px;
+		}
+	}
+}
+.loginArea, 
+.registerArea {
+	width: 100%;
+	float: none;
+}
+.loginArea {
+	h1 {
+		font-size: 3em;
+	}
+}
+.registerArea {
+	h1 {
+		font-size: 3em;
+	}
+	padding-left: 0.9375em;
+}
+
+/*******365 PAIVA AREA*******/
+#paivaPanel {
+	-webkit-overflow-scrolling: touch;
+	.paivaContainer {
+		max-width: 550px;
+		padding-left: 0.9375em;
+		padding-right: 0.9375em;
+		h1 {
+			font-size: 3em;
+			margin-top: 1.2em;
+		}
+		.closeWrapper {
+			right: -55px;
+		}
+	}
+}
